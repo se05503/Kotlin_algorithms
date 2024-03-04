@@ -1,14 +1,11 @@
 class Solution {
-    fun solution(n: Long): IntArray {
-        var answer = intArrayOf()
-        var num : Long = n
-        var i : Int = 0
-        while(num!=0L) {   
-            answer[i]=(num%10).toInt()
-            i += 1
-            num /= 10
+    fun solution(s: String): Int {
+        var answer = 0
+        if(s.length in 1..5) {
+            if(s.first()!='0') {
+                answer = s.toInt()
+            }
         }
         return answer
     }
 }
-//commit
