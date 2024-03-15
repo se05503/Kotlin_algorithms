@@ -1,6 +1,3 @@
-// 아직 티스토리 정리안함
-// 다른 사람 풀이 아직 참고안함
-
 fun main() {
     var matrix1 = arrayOf(intArrayOf(1, 2, 3, 4), intArrayOf(2, 3, 2, 3))
     var matrix2 = arrayOf(intArrayOf(3, 4, 5, 6), intArrayOf(5, 6, 1, 2))
