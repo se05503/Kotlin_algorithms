@@ -12,3 +12,12 @@ class Solution {
     return answer
     }
 }
+
+/*
+// 나도 나름 다른 사람들처럼 코드 간결하게 작성해보려고 했지만 에러가 뜨는 코드
+class Solution {
+    fun solution(a: Int, b: Int): Long {
+    return if(a>b) (b..a).sum().toLong() else (a..b).sum().toLong()
+    }
+}
+*/
